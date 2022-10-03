@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    text-align: center;
+    background: linear-gradient(to left , #845EC2,#F3C5FF,#00C9A7,#FEFEDF);
+    font-family:monospace;
+    font-size: 29px;
+}
+
+.button {
+    font-size: 20px;
+}
+
+button{
+    width: 230px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: darkorange;
+    font-size: 25px;
+    background:linear-gradient(to top , #FACCFF , #DCB0FF, #BE93FD)
+} 
+
+.galery{
+    position: relative;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galery img{
+    margin:auto;
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border: 2px solid #eeee;
+    box-shadow: 1px 2px 3px #00C9A7;
+    border-radius: 2px;
+    box-sizing: content-box;
+}

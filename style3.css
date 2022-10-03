@@ -1,0 +1,66 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("GENSHINbg2.png");
+    background: linear-gradient(#6793E7,#008FD1,#0087AE,#007B85,#006D5C);
+}
+
+
+
+.kembali{
+    text-align: center  ;
+    border: 2px solid#000; 
+    border-radius: 10px;
+    width: 80px;
+    height: 20px;
+    background-color: chartreuse;
+}
+
+.persegi{
+   background:linear-gradient(to left, #845EC2,#4E8397,#D5CABD);
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    font-size: 90px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+
+.deskripsi{
+    font-size: 40px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+button{
+    width: 130px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: darkorange;
+    font-size: 15px;
+    background:linear-gradient(to top ,#FF6F91,#FF9671,#FFC75F)
+} 
+
+.container{
+    position: relative;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container   img{
+    margin:auto;
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border: 2px solid #eeee;
+    box-shadow: 1px 2px 3px #00C9A7;
+    border-radius: 2px;
+    box-sizing: content-box;
+}
